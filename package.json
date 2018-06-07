@@ -1,0 +1,23 @@
+{
+  "name": "create-jasmine-specs",
+  "version": "1.0.0",
+  "description": "Este software deve ser capaz de localizar todos os arquivos .feature contido em uma pasta e a partir dele, gerar arquivos specs.js para serem executados com o Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deividbatfish2/create-jasmine-spec.git"
+  },
+  "keywords": [
+    "jasmine",
+    "cucumber"
+  ],
+  "author": "Deivid Teixeira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deividbatfish2/create-jasmine-spec/issues"
+  },
+  "homepage": "https://github.com/deividbatfish2/create-jasmine-spec#readme"
+}
