@@ -25,7 +25,11 @@ const run = async () => {
             let template = `
 ${contexto || ''}
 ${cenario}`
-            file.criarArquivoFeature(arquivo, template, index)
+            try {
+                file.criarArquivoFeature(arquivo, template, index)
+            } catch (error) {
+                console.error(error)
+            }
         })
         arrayCenarios = []
     });
